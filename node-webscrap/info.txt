@@ -1,0 +1,4 @@
+title = $('.title_wrapper > h1').text().trim()
+rating = $('.ratingValue').text().trim()
+summary = $('.summary_text').text().trim()
+releaseDate = $('a[title="See more release dates"').text().trim()
